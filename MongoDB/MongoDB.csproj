@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MongoDB.manipulandoClasses</StartupObject>
+    <StartupObject>MongoDB.ManipulandoClassesExternas</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MongoDB.Bson, Version=2.4.4.0, Culture=neutral, processorArchitecture=MSIL">
@@ -61,8 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="acessandoMongoDb.cs" />
+    <Compile Include="conectandoMongoDB.cs" />
     <Compile Include="Livro.cs" />
     <Compile Include="manipulandoClasses.cs" />
+    <Compile Include="ManipulandoClassesExternas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
