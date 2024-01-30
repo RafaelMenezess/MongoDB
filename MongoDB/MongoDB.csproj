@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MongoDB.IncluindoMuitosLivros</StartupObject>
+    <StartupObject>MongoDB.listandoDocs</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MongoDB.Bson, Version=2.4.4.0, Culture=neutral, processorArchitecture=MSIL">
@@ -63,6 +63,7 @@
     <Compile Include="acessandoMongoDb.cs" />
     <Compile Include="conectandoMongoDB.cs" />
     <Compile Include="IncluindoMuitosLivros.cs" />
+    <Compile Include="listandoDocs.cs" />
     <Compile Include="Livro.cs" />
     <Compile Include="manipulandoClasses.cs" />
     <Compile Include="ManipulandoClassesExternas.cs" />
