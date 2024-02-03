@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MongoDB.listandoDocFiltroClasse</StartupObject>
+    <StartupObject>MongoDB.listandoDocPorOrdem</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MongoDB.Bson, Version=2.4.4.0, Culture=neutral, processorArchitecture=MSIL">
@@ -65,6 +65,7 @@
     <Compile Include="IncluindoMuitosLivros.cs" />
     <Compile Include="listandoDocFiltroBson.cs" />
     <Compile Include="listandoDocFiltroClasse.cs" />
+    <Compile Include="listandoDocPorOrdem.cs" />
     <Compile Include="listandoDocs.cs" />
     <Compile Include="Livro.cs" />
     <Compile Include="manipulandoClasses.cs" />
