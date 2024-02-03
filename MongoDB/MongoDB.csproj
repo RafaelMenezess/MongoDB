@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MongoDB.alterandoDocClasse</StartupObject>
+    <StartupObject>MongoDB.excluindoDoc</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MongoDB.Bson, Version=2.4.4.0, Culture=neutral, processorArchitecture=MSIL">
@@ -64,6 +64,7 @@
     <Compile Include="alterandoDoc.cs" />
     <Compile Include="alterandoDocClasse.cs" />
     <Compile Include="conectandoMongoDB.cs" />
+    <Compile Include="excluindoDoc.cs" />
     <Compile Include="IncluindoMuitosLivros.cs" />
     <Compile Include="listandoDocFiltroBson.cs" />
     <Compile Include="listandoDocFiltroClasse.cs" />
