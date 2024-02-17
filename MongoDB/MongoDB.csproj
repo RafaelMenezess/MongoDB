@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="acessandoMongoDb.cs" />
+    <Compile Include="Aeroporto.cs" />
     <Compile Include="alterandoDoc.cs" />
     <Compile Include="alterandoDocClasse.cs" />
     <Compile Include="conectandoMongoDB.cs" />
