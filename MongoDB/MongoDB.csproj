@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MongoDB.excluindoDoc</StartupObject>
+    <StartupObject>MongoDB.buscaAeroportos</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MongoDB.Bson, Version=2.4.4.0, Culture=neutral, processorArchitecture=MSIL">
@@ -64,6 +64,7 @@
     <Compile Include="Aeroporto.cs" />
     <Compile Include="alterandoDoc.cs" />
     <Compile Include="alterandoDocClasse.cs" />
+    <Compile Include="buscaAeroportos.cs" />
     <Compile Include="conectandoMongoDB.cs" />
     <Compile Include="conectandoMongoDBGeo.cs" />
     <Compile Include="excluindoDoc.cs" />
