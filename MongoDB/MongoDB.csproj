@@ -65,6 +65,7 @@
     <Compile Include="alterandoDoc.cs" />
     <Compile Include="alterandoDocClasse.cs" />
     <Compile Include="conectandoMongoDB.cs" />
+    <Compile Include="conectandoMongoDBGeo.cs" />
     <Compile Include="excluindoDoc.cs" />
     <Compile Include="IncluindoMuitosLivros.cs" />
     <Compile Include="listandoDocFiltroBson.cs" />
